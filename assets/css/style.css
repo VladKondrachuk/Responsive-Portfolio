@@ -27,7 +27,7 @@ html, body {
 }
 
   .main_menu > li {
-    display:  inline-block;
+    display: inline-block;
     padding:25px 0px 0px 0px;
     font-size: 12px;
     position: relative;
@@ -51,7 +51,7 @@ html, body {
   }
 
   #name{
-margin-top: 15px;
+    margin-top: 15px;
 
   }
 
@@ -78,7 +78,7 @@ margin-top: 15px;
 
 .message{
     height:250px;
-    width:960px;
+    width:100%;
     text-align: start;
 }
 
@@ -318,10 +318,19 @@ footer #Copydiv{
     .main_menu{
         width:100%;
     }
+      
+      .main_menu > li {
+    display: inline-block;
+    padding:25px 0px 0px 0px;
+    font-size: 12px;
+    position: relative;
+    float: right;
+    margin:-15px 0 0 0;
+  }
 
     .btn round{
         width:100%;
-        display:inline-block;
+        display:block;
     }
     article{
         width:100%;
@@ -332,16 +341,38 @@ footer #Copydiv{
     }
 
     .imagerow1{
-        width:100%;
+        width:650px;
     }
 
     .column{
-        width:100%;
+        width:650px;
     }
 
 
     .form1{
         width:100%;
+    }
+      
+      .FullName{
+    
+    width:650px;
+    text-align: start;
+    border: solid black 1px;
+
+    }
+      
+      .Email{
+    
+    width:650px;
+    text-align: start;
+    border: solid black 1px;
+    }
+      
+      .message{
+    height:150px;
+    width:650px;
+    text-align: start;
+    border: solid black 1px;
     }
 
 
@@ -359,28 +390,96 @@ footer #Copydiv{
 
   }
 
-  @media screen and (max-width:319px){
-    .container{
-        width:100%;
+  @media screen and (max-width:320px){
+        
+      
+      .container{
+        min-width: 100%;
     }
 
     .backgroundbanner{
         width:100%;
-       
     }
 
-    .main_menu > li {
-        display:  block;
-        padding:125px 0px 0px 0px;
-        font-size: 12px;
-        position: relative;
-        float: right;
-        margin:-15px 0 0 0;
-        color: red;
-      }
+   
+
+     .main_menu{
+        width:100%;
+    }
+    
+
+    article {
+    padding:5px;
+    width:100%;
+    height:450px;
+    
+}
+
+    #ArticleHeader{
+        width:100%;
+    }
+
+    .imagerow1{
+        width:100%;
+    }
+
+    .column{
+        width:100%;
+    }
 
 
+    .form1{
+        width:200px;
+    }
 
+    .FullName{
+    
+    width:250px;
+    text-align: start;
+    border: solid black 1px;
+
+    }
+      
+      .Email{
+    
+    width:250px;
+    text-align: start;
+    border: solid black 1px;
+    }
+      
+      .message{
+    height:150px;
+    width:250px;
+    text-align: start;
+    border: solid black 1px;
+    }
+
+    .label{
+        width:100%;
+        
+    }
+
+    footer{
+        width:100%;
+    }
+
+    #Copydiv{
+        width:100%;
+        margin: 0 50%;
+    }
+
+      .btn{
+	text-decoration:none;
+	color:#cccccc;
+	font-size:12px;
+	font-weight:bold;
+	padding:0 15px;
+	line-height:32px;
+	height: auto;
+	display:block;
+	text-align:center;
+    background-color:rgba(250, 250, 250, 0.801);
+}
 
 
 
